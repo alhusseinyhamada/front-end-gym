@@ -20,6 +20,9 @@ import { ShopComponent } from './components/shop/shop.component';
 
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { MembershipComponent } from './components/membership/membership.component';
+import { TodayClassesComponent } from './components/today-classes/today-classes.component';
+import { Next2DaysClassesComponent } from './components/next2-days-classes/next2-days-classes.component';
 
 
 
@@ -38,7 +41,10 @@ import {HttpClientModule} from '@angular/common/http';
     TopComponent,
     ClassDetailsComponent,
     TrainerDetailComponent,
-    ShopComponent
+    ShopComponent,
+    MembershipComponent,
+    TodayClassesComponent,
+    Next2DaysClassesComponent
   ],
   imports: [
     FormsModule,
