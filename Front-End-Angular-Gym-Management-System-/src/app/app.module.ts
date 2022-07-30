@@ -23,6 +23,10 @@ import {HttpClientModule} from '@angular/common/http';
 import { MembershipComponent } from './components/membership/membership.component';
 import { TodayClassesComponent } from './components/today-classes/today-classes.component';
 import { Next2DaysClassesComponent } from './components/next2-days-classes/next2-days-classes.component';
+import { SingleWorkoutComponent } from './components/single-workout/single-workout.component';
+import { WishlistComponent } from './components/wishlist/wishlist.component';
+import { WorkoutDetailsComponent } from './components/workout-details/workout-details.component';
+import { ExerciseDetailsComponent } from './components/exercise-details/exercise-details.component';
 
 
 
@@ -44,7 +48,11 @@ import { Next2DaysClassesComponent } from './components/next2-days-classes/next2
     ShopComponent,
     MembershipComponent,
     TodayClassesComponent,
-    Next2DaysClassesComponent
+    Next2DaysClassesComponent,
+    SingleWorkoutComponent,
+    WishlistComponent,
+    WorkoutDetailsComponent,
+    ExerciseDetailsComponent
   ],
   imports: [
     FormsModule,
